@@ -1,9 +1,19 @@
-body{
-    color:blue;
+body {
+    color: blue;
 }
-#nav-bar{
-    color:orange;
+
+/* image mon compte de la navbar */
+
+.mon-compte-img {
+    max-width: 64px;
+    height: 24px;
+    size: auto;
 }
-.green{
+
+#nav-bar {
+    color: orange;
+}
+
+.green {
     color: green;
 }
