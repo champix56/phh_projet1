@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="nav-bar">Une navbar</div>
-    <h1>DEMAT breizhouz</h1>
-    Lorem ipsum dolors <span class="green">sit amet</span>, consectetur adipisicing elit. Hic vero accusantium itaque minima officiis aliquid assumenda delectus eveniet fugiat, accusamus excepturi dolorem expedita at repellat iure unde est explicabo repudiandae.
+    <div id="content">content</div>
+    <div id="footer">footer</div>
 </body>
 </html>
