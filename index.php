@@ -26,14 +26,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">MyPhpSeller</a>
+                <a class="navbar-brand" href="index.php">MyPhpSeller</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Produits</a></li>
-                    <li><a href="#">Promos</a></li>
+                    <li class="active"><a href="index.php?edit-produit">Editer produit</a></li>
+                    <li><a href="index.php?edit-produit&id=2">Editer produit idp=2</a></li>
                 </ul>
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group">
@@ -57,7 +57,15 @@
         </nav>
     </div>
     <div id="content">
-        <?php include('vues/form_produit.inc.php'); ?>     
+        <?php 
+    if(isset($_GET["edit-produit"]))
+    {
+            include('vues/form_produit.inc.php');
+    }
+    else{
+        include('vues/accueil.inc.php');
+    }
+        ?>     
     </div>
     <div id="footer">footer</div>
 </body>

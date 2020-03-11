@@ -11,8 +11,10 @@
           // echo $requete;
           $retInsertSQL=mysqli_query($linkDB,$requete);
           if($retInsertSQL!=NULL){
-           
-            echo 'c\'est OK';}
+            //echo 'c\'est OK';
+            header("Location:index.php");
+            exit();
+        }
     } 
     else if(isset($_GET["id"])&& strlen( $_GET["id"])>0){
        
