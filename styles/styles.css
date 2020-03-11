@@ -2,6 +2,15 @@ body {
     color: blue;
 }
 
+.prix-produit {
+    width: 100px;
+}
+
+.form-produit {
+    width: 80%;
+    margin-left: 10%;
+}
+
 /* image mon compte de la navbar */
 
 .mon-compte-img {
